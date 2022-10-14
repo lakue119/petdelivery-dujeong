@@ -2215,6 +2215,7 @@ table tr:hover {
   position: relative;
   z-index: 1;
   padding: 100px 15px;
+  text-align: center;
 }
 
 .site-location .location-heading {
@@ -2240,8 +2241,11 @@ table tr:hover {
 .out {
   display: flex;
   justify-content: center;
+  max-width: 800px;
+  margin: 0px auto;
 }
 
 .in {
   display: inline-block;
+  text-align: center;
 }
