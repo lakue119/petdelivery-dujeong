@@ -2191,3 +2191,47 @@ table tr:hover {
     font-size: 13px;
   }
 }
+
+
+/* 13. ========== Location Styles ========== */
+
+.site-location {
+  position: relative;
+  background-color: #ffffff;
+  padding: 0px 80px 0px;
+}
+
+.site-location .location-wrapper {
+  position: relative;
+  z-index: 1;
+  padding: 100px 15px;
+}
+
+.site-location .location-heading {
+  margin: 0 0 30px;
+  font-size: 37px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-weight: 400;
+  line-height: 40px;
+  color: #000000;
+}
+
+.site-location .location-heading2 {
+  margin: 0 0 30px;
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-weight: 700;
+  line-height: 40px;
+  color: #000000;
+}
+
+.out {
+  display: flex;
+  justify-content: center;
+}
+
+.in {
+  display: inline-block;
+}

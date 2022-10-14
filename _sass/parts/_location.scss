@@ -1,0 +1,26 @@
+.location {
+  width: 100%;
+  min-height: 150px;
+  background-color: $white;
+  padding: 60px 60px 60px;
+}
+
+
+.site-location {
+  position: relative;
+  background-color: $white;
+  .location-wrapper {
+    position: relative;
+    z-index: 1;
+    padding: 100px 15px;
+  }
+  .location-heading {
+    margin: 0 0 30px;
+    font-size: 37px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+    color: $white;
+  }
+}
