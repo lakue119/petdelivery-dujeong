@@ -1042,7 +1042,7 @@ table tr:hover {
 
 .newsletter-button {
   display: inline-block;
-  width: 200px;
+  width: 100%;
   font-size: 14px;
   padding: 20px 0;
   border: none;
@@ -2195,6 +2195,17 @@ table tr:hover {
 
 /* 13. ========== Location Styles ========== */
 
+@media screen and (max-width: 800px) {
+  .location-img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
 .site-location {
   position: relative;
   background-color: #ffffff;
