@@ -2208,7 +2208,6 @@ table tr:hover {
 }
 .site-location {
   position: relative;
-  background-color: #ffffff;
 }
 
 .site-location .location-wrapper {
@@ -2248,4 +2247,33 @@ table tr:hover {
 .in {
   display: inline-block;
   text-align: center;
+}
+
+/* 14. ========== Slide-img Styles ========== */
+.site-slide {
+  position: relative;
+  background-color: #ffffff;
+}
+
+.site-slide .slide-wrapper {
+  position: relative;
+  z-index: 1;
+  padding: 100px 15px 100px;
+  text-align: center;
+}
+
+.swiper-container {
+	height:420px;
+  background-color: #ffffff;
+}
+.swiper-slide {
+	text-align:center;
+	display:flex; /* 내용을 중앙정렬 하기위해 flex 사용 */
+	align-items:center; /* 위아래 기준 중앙정렬 */
+	justify-content:center; /* 좌우 기준 중앙정렬 */
+}
+.swiper-slide img {
+	box-shadow:0 0 5px #555;
+	max-width:100%; /* 이미지 최대너비를 제한, 슬라이드에 이미지가 여러개가 보여질때 필요 */
+	/* 이 예제에서 필요해서 설정했습니다. 상황에따라 다를 수 있습니다. */
 }

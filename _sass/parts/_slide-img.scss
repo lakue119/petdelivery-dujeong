@@ -1,0 +1,17 @@
+.slide {
+  width: 100%;
+  min-height: 150px;
+  background-color: $white;
+  padding: 60px 60px 60px;
+}
+
+
+.site-slide {
+  position: relative;
+  background-color: $white;
+  .slide-wrapper {
+    position: relative;
+    z-index: 1;
+    padding: 100px 15px;
+  }
+}
