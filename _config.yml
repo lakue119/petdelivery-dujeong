@@ -21,13 +21,13 @@ author-name: 펫딜 두정점
 author-image: petdelivery_insta.png
 about-author: 펫딜 두정점 관리자입니다.
 author-email: help.example@gmail.com
-author-twitter: https://twitter.com/
-author-facebook: https://twitter.com/
-author-instagram: https://www.instagram.com/
-author-roy-insta: https://www.instagram.com/roy.12.01/
-author-natto-insta: https://www.instagram.com/natto__lim/
-author-pinterest: https://pinterest.com/
-author-kakao_opentalk: https://open.kakao.com/o/gO8UkPGe
+# author-twitter: https://twitter.com/
+# author-facebook: https://twitter.com/
+author-instagram: https://www.instagram.com/petdelivery_cheonan/
+# author-roy-insta: https://www.instagram.com/roy.12.01/
+# author-natto-insta: https://www.instagram.com/natto__lim/
+# author-pinterest: https://pinterest.com/
+# author-kakao_opentalk: https://open.kakao.com/o/gO8UkPGe
 
 # Other Authors - here you can add Other authors. For example Natali_Braxton
 authors:
@@ -36,22 +36,23 @@ authors:
     author-image: 111.jpg
     about-author: My name is Natali Braxton. I love walking, I play the guitar in my spare time. And also write articles about different technologies.
     author-email: natali.example@gmail.com
-    author-twitter: https://twitter.com/
-    author-facebook: https://twitter.com/
-    author-instagram: https://www.instagram.com/
-    author-roy-insta: https://www.instagram.com/roy.12.01/
-    author-natto-insta: https://www.instagram.com/natto__lim/
-    author-pinterest: https://pinterest.com/
+    # author-twitter: https://twitter.com/
+    # author-facebook: https://twitter.com/
+    author-instagram: https://www.instagram.com/petdelivery_cheonan/
+    # author-roy-insta: https://www.instagram.com/roy.12.01/
+    # author-natto-insta: https://www.instagram.com/natto__lim/
+    # author-pinterest: https://pinterest.com/
 
 # Social Media Links (Links are located in hero and footer)
-twitter: https://twitter.com/
-facebook: https://facebook.com/
-google-plus: https://plus.google.com/
+# twitter: https://twitter.com/
+# facebook: https://facebook.com/
+# google-plus: https://plus.google.com/
 instagram: https://www.instagram.com/
 roy-instagram: https://www.instagram.com/roy.12.01/
 natto-instagram: https://www.instagram.com/natto__lim/
-pinterest: https://pinterest.com/
-youtube: https://www.youtube.com/
+pet-instagram: https://www.instagram.com/petdelivery_cheonan/
+# pinterest: https://pinterest.com/
+# youtube: https://www.youtube.com/
 kakao_opentalk: https://open.kakao.com/o/gO8UkPGe
 
 # Contact Form Settings
