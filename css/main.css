@@ -1291,22 +1291,10 @@ table tr:hover {
 }
 
 .post-header {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  
   position: relative;
-  width: 100%;
-  height: 100px;
-  min-height: 700px;
+  width: 100% !important;
+  height: auto !important;
   background-color: rgba(220, 235, 245, 0.2) !important;
   -webkit-background-size: cover !important;
           background-size: cover !important;
@@ -1317,7 +1305,7 @@ table tr:hover {
 .post-header::before {
   content: "";
   display: block;
-  padding-top: 35%;
+  padding-top: 50%;
 }
 
 .post-header-info {
@@ -2250,6 +2238,7 @@ table tr:hover {
 }
 
 /* 14. ========== Slide-img Styles ========== */
+
 .site-slide {
   position: relative;
   background-color: #ffffff;
@@ -2276,4 +2265,18 @@ table tr:hover {
 	box-shadow:0 0 5px #555;
 	max-width:100%; /* 이미지 최대너비를 제한, 슬라이드에 이미지가 여러개가 보여질때 필요 */
 	/* 이 예제에서 필요해서 설정했습니다. 상황에따라 다를 수 있습니다. */
+}
+
+.swiper-button-prev {
+  background-image: url("/images/previous.png") !important;
+  width: 36px	!important;
+  height: 36px !important;
+  background-size: 36px 36px  !important;
+}
+
+.swiper-button-next {
+  background-image: url("/images/next.png") !important;
+  width: 36px	!important;
+  height: 36px !important;
+  background-size: 36px 36px  !important;
 }
