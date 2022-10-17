@@ -1426,8 +1426,8 @@ table tr:hover {
   transition: all .25s ease;
 }
 
-.post-content::first-letter,
-.post-content > p:first-of-type::first-letter {
+/* .post-content::first-letter, */
+/* .post-content > p:first-of-type::first-letter {
   display: block;
   height: 40px;
   margin-top: 10px;
@@ -1436,7 +1436,7 @@ table tr:hover {
   font-size: 55px;
   color: #e4763b;
   line-height: 0.6;
-}
+} */
 
 .post-author {
   display: -webkit-box;
